@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzar. | Muna Dzar Wildan Kautsar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-zinc-950 text-zinc-100 overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="bg-zinc-900/95 backdrop-blur-lg border-b border-zinc-800 fixed top-0 inset-x-0 z-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-x-3">
+                    <div>
+                        <span class="font-semibold text-2xl tracking-tighter heading-font">Dzar.</span>
+                    </div>
+                </div>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center gap-x-9 text-sm font-medium">
+                    <a href="#home" class="nav-link text-zinc-400 hover:text-white">Home</a>
+                    <a href="#about" class="nav-link text-zinc-400 hover:text-white">About</a>
+                    <a href="#skills" class="nav-link text-zinc-400 hover:text-white">Skills</a>
+                    <a href="#works" class="nav-link text-zinc-400 hover:text-white">Works</a>
+                    <a href="#diniah" class="nav-link text-zinc-400 hover:text-white">Diniyah</a>
+                    <a href="#tahfidz" class="nav-link text-zinc-400 hover:text-white">Tahfidz</a>
+                </div>
+
+                <div class="flex items-center gap-x-4">
+                    <!-- Mobile menu button -->
+                    <button id="mobile-menu-btn"
+                            class="md:hidden w-10 h-10 flex items-center justify-center text-zinc-400 hover:text-white hover:bg-zinc-800 rounded-2xl transition-colors">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                    
+                    <a href="#contact" 
+                       class="hidden md:inline-flex items-center px-5 py-2.5 text-sm font-semibold bg-white text-zinc-950 rounded-3xl hover:bg-zinc-100 transition-all active:scale-[0.985]">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Home -->
+    <section id="home" class="pt-20 pb-16 md:pt-28 md:pb-20 border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-y-12 md:gap-x-8 items-center">
+                <!-- Text Content -->
+                <div class="md:col-span-7 lg:col-span-7">
+                  <br><br>
+                    <h2 class="text-4xl md:text-4xl lg:text-6xl font-semibold tracking-[-3.5px] heading-font text-white mb-6">
+                        Halo namaku👋 <br> Muna Dzar Wildan
+                    </h2>
+                    <li><h2 class="text-xl md:text-2xl lg:text-4xl small font-serif">
+                      Aku adalah <span id="typing-text" class="text-white"></span>
+                     </h2>
+                    </li>
+                    <br>
+                    <!-- Follow -->
+                    <div class="mb-8">
+                        <p class="text-xs uppercase tracking-[3px] text-zinc-500 mb-3 font-medium">FOLLOW ME</p>
+                        <div class="flex items-center gap-x-3">
+                            <a href="https://github.com/wlndzar" target="_blank"
+                               class="w-11 h-11 flex items-center justify-center bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-zinc-600 rounded-2xl text-xl transition-all">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank"
+                               class="w-11 h-11 flex items-center justify-center bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-zinc-600 rounded-2xl text-xl transition-all">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/wln_dzar/" target="_blank"
+                               class="w-11 h-11 flex items-center justify-center bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-zinc-600 rounded-2xl text-xl transition-all">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://x.com/WDzar65447" target="_blank"
+                               class="w-11 h-11 flex items-center justify-center bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-zinc-600 rounded-2xl text-xl transition-all">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Profile Photo -->
+                <div class="md:col-span-5 lg:col-span-5 flex justify-center md:justify-end">
+                    <div class="relative">
+                        <div class="w-96 h-96 md:w-80 md:h-80 rounded-full overflow-hidden border-[10px] border-zinc-900 shadow-2xl ring-1 ring-zinc-800">
+                            <img src="images/ChatGPT Image Dec 23, 2025, 10_10_53 AM.png" 
+                                 alt="Muna Dzar Wildan Kautsar - Professional Portrait"
+                                 class="w-full h-full object-cover grayscale-[0.15]">
+                        </div>
+                        <div class="absolute -bottom-3 -right-3 bg-zinc-900 border border-zinc-700 px-5 py-2 rounded-3xl text-sm font-medium flex items-center gap-x-2 shadow-xl">
+                            <i class="fa-solid fa-graduation-cap text-blue-900"></i>
+                            <span class="text-xs font-semibold tracking-wide">HSI BOARDING SCHOOL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="max-w-7xl mx-auto px-6 pt-16 pb-20">
+        <div class="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
+            <!-- Left: Image -->
+            <div class="w-full md:w-5/12">
+                <div class="relative rounded-3xl overflow-hidden border border-zinc-800 shadow-xl">
+                    <img src="images/jendela.png" 
+                         alt="Muna Dzar - Working on code with city view"
+                         class="w-full h-auto object-cover grayscale-[0.2]">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-zinc-950/70"></div>
+                </div>
+            </div>
+            
+            <!-- Right: Content -->
+            <div class="w-full md:w-7/12 pt-2">
+                <div class="flex items-center gap-x-3 mb-4">
+                    <span class="section-title text-zinc-500">ABOUT ME</span>
+                    <div class="h-px flex-1 bg-zinc-800"></div>
+                </div>
+                
+                <h3 class="text-4xl font-semibold tracking-tighter heading-font mb-6">PROGRAMMER</h3>
+                
+                <div class="prose prose-invert text-[15.5px] leading-relaxed text-zinc-300 max-w-prose">
+                    <p class="mb-5">
+                        Nama saya Muna Dzar Wildan Kautsar, seorang programmer muda dari Indonesia.                    
+                    </p>
+                    <p class="mb-5">
+                        Saya memiliki minat yang kuat dalam pengembangan web, terutama dalam membangun 
+                        tampilan menggunakan HTML dan CSS. Dalam proses pengembangan, saya menggunakan 
+                        Visual Studio Code sebagai editor utama untuk menulis dan mengelola kode.
+                    </p>
+                    <p>
+                        Saya terus belajar dan mengembangkan kemampuan saya di bidang teknologi untuk 
+                        menciptakan solusi digital yang bermanfaat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skills -->
+    <section id="skills" class="bg-zinc-900 py-16 border-y border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="section-title text-zinc-500">WHAT I WORK WITH</span>
+                <h3 class="mt-3 text-4xl font-semibold tracking-tighter heading-font">MY SKILLS</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- HTML5 -->
+                <div class="skill-card bg-zinc-950 border border-zinc-800 rounded-3xl p-8 group">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 flex items-center justify-center bg-zinc-900 rounded-2xl text-4xl font-black text-white group-hover:scale-110 transition-transform">5</div>
+                        <span class="font-mono text-xs px-3 py-1 bg-zinc-900 rounded-xl border border-zinc-700 text-zinc-400">HTML</span>
+                    </div>
+                    <h4 class="font-semibold text-2xl tracking-tight mb-3">HTML 5</h4>
+                    <p class="text-zinc-400 text-[14.5px] leading-relaxed">
+                        HTML merupakan singkatan dari Hyper Text Markup Language, yaitu sebuah markup 
+                        yang digunakan untuk membuat sebuah halaman website.
+                    </p>
+                    <div class="mt-6">
+                        <a href="https://id.wikipedia.org/wiki/HTML" target="_blank" class="custom-btn inline-flex items-center justify-center px-6 py-2.5 text-sm bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- CSS3 -->
+                <div class="skill-card bg-zinc-950 border border-zinc-800 rounded-3xl p-8 group">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 flex items-center justify-center bg-zinc-900 rounded-2xl text-4xl font-black text-white group-hover:scale-110 transition-transform">3</div>
+                        <span class="font-mono text-xs px-3 py-1 bg-zinc-900 rounded-xl border border-zinc-700 text-zinc-400">CSS</span>
+                    </div>
+                    <h4 class="font-semibold text-2xl tracking-tight mb-3">CSS 3</h4>
+                    <p class="text-zinc-400 text-[14.5px] leading-relaxed">
+                        CSS merupakan singkatan dari Cascade Style Sheet, adalah sebuah bahasa untuk 
+                        mengatur tampilan web sehingga terlihat lebih menarik dan indah.
+                    </p>
+                    <div class="mt-6">
+                        <a href="https://id.wikipedia.org/wiki/CSS" target="_blank" class="custom-btn inline-flex items-center justify-center px-6 py-2.5 text-sm bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Python -->
+                <div class="skill-card bg-zinc-950 border border-zinc-800 rounded-3xl p-8 group">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 flex items-center justify-center bg-zinc-900 rounded-2xl text-4xl font-black text-white group-hover:scale-110 transition-transform">Py</div>
+                        <span class="font-mono text-xs px-3 py-1 bg-zinc-900 rounded-xl border border-zinc-700 text-zinc-400">PYTHON</span>
+                    </div>
+                    <h4 class="font-semibold text-2xl tracking-tight mb-3">Python</h4>
+                    <p class="text-zinc-400 text-[14.5px] leading-relaxed">
+                        Python merupakan bahasa pemrograman tingkat tinggi yang mudah untuk dipelajari.diriliskan oleh Guido van 
+                        Rossum pada tahun 1989 di Belanda.
+                    </p>
+                    <div class="mt-6">
+                        <a href="https://id.wikipedia.org/wiki/Python" target="_blank" class="custom-btn inline-flex items-center justify-center px-6 py-2.5 text-sm bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="max-w-7xl mx-auto px-6 py-16">
+        <div class="flex items-end justify-between mb-10">
+            <div>
+                <span class="section-title text-zinc-500">SELECTED PROJECTS</span>
+                <h3 class="mt-2 text-4xl font-semibold tracking-tighter heading-font">WORKS</h3>
+            </div>
+            <a href="#" class="hidden md:flex items-center text-sm font-medium text-zinc-400 hover:text-white transition-colors">
+                VIEW ALL <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Work 1 -->
+            <div class="work-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden group">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/poster.jpg" 
+                         alt="Kumpulan Tugas Poster" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h5 class="font-semibold text-lg tracking-tight mb-1">Kumpulan Tugas Poster</h5>
+                    <p class="text-xs text-zinc-400 mb-4">Desain grafis • Kreatif</p>
+                    
+                    <a href="https://drive.google.com/drive/folders/1iPHczdAMqw01vEEs7KXb-wbmLjLu4-To" target="_blank"  class="custom-btn inline-flex items-center text-xs font-semibold px-5 py-2 bg-white text-zinc-950 rounded-3xl hover:bg-zinc-100">
+                        KLIK INI
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Work 2 -->
+            <div class="work-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden group">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/syntax coding.jpg" 
+                         alt="Kumpulan Tugas IT" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h5 class="font-semibold text-lg tracking-tight mb-1">Kumpulan Tugas IT</h5>
+                    <p class="text-xs text-zinc-400 mb-4">Teknologi • Praktikum</p>
+                    
+                    <a href="https://github.com/wlndzar" target="_blank" class="custom-btn inline-flex items-center text-xs font-semibold px-5 py-2 bg-white text-zinc-950 rounded-3xl hover:bg-zinc-100">
+                        KLIK INI
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Work 3 -->
+            <div class="work-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden group">
+                <div class="h-48 overflow-hidden">
+                    <img src="https://picsum.photos/id/251/600/400" 
+                         alt="My Task on My Day" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h5 class="font-semibold text-lg tracking-tight mb-1">My Task on My Day</h5>
+                    <p class="text-xs text-zinc-400 mb-4">Daily Productivity</p>
+                    
+                    <a href="#" class="custom-btn inline-flex items-center text-xs font-semibold px-5 py-2 bg-white text-zinc-950 rounded-3xl hover:bg-zinc-100">
+                        KLIK INI
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Coming Soon -->
+            <div class="work-card bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden flex flex-col justify-center items-center text-center p-8 min-h-[280px]">
+                <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center bg-zinc-800 rounded-2xl">
+                    <i class="fa-solid fa-clock text-3xl text-zinc-400"></i>
+                </div>
+                <h5 class="font-semibold text-xl tracking-tight mb-1">COMING SOON</h5>
+                <p class="text-sm text-zinc-400 max-w-[180px]">Proyek baru sedang dalam tahap pengembangan</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diniyah -->
+    <section id="diniah" class="bg-zinc-900 py-16 border-y border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-x-4 mb-10">
+                <div>
+                    <span class="px-4 py-1.5 text-xs font-semibold tracking-[2.5px] bg-zinc-800 text-zinc-400 rounded-2xl">DINIAH</span>
+                </div>
+                <div class="flex-1 h-px bg-zinc-700"></div>
+            </div>
+            
+            <h3 class="text-3xl font-semibold tracking-tighter heading-font mb-9">Tugas Bahasa Arab &amp; Tahajji</h3>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-zinc-950 border border-zinc-800 rounded-3xl overflow-hidden portfolio-card">
+                    <div class="h-40 bg-zinc-800 relative">
+                        <img src="https://picsum.photos/id/29/600/320" alt="Qira'ah" class="w-full h-full object-cover opacity-90">
+                        <div class="absolute top-4 right-4 px-3 py-1 text-[10px] font-mono tracking-widest bg-black/70 text-white rounded-xl">PART 4</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="uppercase text-emerald-400 text-xs font-semibold tracking-widest mb-1">QIRA'AH</div>
+                        <h5 class="font-semibold text-xl tracking-tight mb-2">Tugas Bahasa Arab</h5>
+                        <p class="text-sm text-zinc-400 mb-5">Video tentang membaca kitab gundul</p>
+                        
+                        <a href="#" class="custom-btn text-xs inline-flex items-center justify-center px-5 h-9 bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="bg-zinc-950 border border-zinc-800 rounded-3xl overflow-hidden portfolio-card">
+                    <div class="h-40 bg-zinc-800 relative">
+                        <img src="https://picsum.photos/id/251/600/320" alt="Tafsir" class="w-full h-full object-cover opacity-90">
+                        <div class="absolute top-4 right-4 px-3 py-1 text-[10px] font-mono tracking-widest bg-black/70 text-white rounded-xl">PART 2</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="uppercase text-emerald-400 text-xs font-semibold tracking-widest mb-1">TAFSIR</div>
+                        <h5 class="font-semibold text-xl tracking-tight mb-2">Tugas Bahasa Arab</h5>
+                        <p class="text-sm text-zinc-400 mb-5">Menafsirkan surat Al-Zalzalah dengan bahasa Arab</p>
+                        
+                        <a href="#" class="custom-btn text-xs inline-flex items-center justify-center px-5 h-9 bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="bg-zinc-950 border border-zinc-800 rounded-3xl overflow-hidden portfolio-card">
+                    <div class="h-40 bg-zinc-800 relative">
+                        <img src="https://picsum.photos/id/160/600/320" alt="Tahajji Al-Fatihah" class="w-full h-full object-cover opacity-90">
+                        <div class="absolute top-4 right-4 px-3 py-1 text-[10px] font-mono tracking-widest bg-black/70 text-white rounded-xl">TAHAJJI</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="uppercase text-emerald-400 text-xs font-semibold tracking-widest mb-1">SURAH AL-FATIHAH</div>
+                        <h5 class="font-semibold text-xl tracking-tight mb-2">Tahajji</h5>
+                        <p class="text-sm text-zinc-400 mb-5">Tahajji surat Al-Fatihah</p>
+                        
+                        <a href="#" class="custom-btn text-xs inline-flex items-center justify-center px-5 h-9 bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tahfidz -->
+    <section id="tahfidz" class="max-w-7xl mx-auto px-6 py-16">
+        <div class="flex items-center gap-x-4 mb-10">
+            <div>
+                <span class="px-4 py-1.5 text-xs font-semibold tracking-[2.5px] bg-zinc-800 text-zinc-400 rounded-2xl">TAHFIDZ</span>
+            </div>
+            <div class="flex-1 h-px bg-zinc-700"></div>
+        </div>
+        
+        <h3 class="text-3xl font-semibold tracking-tighter heading-font mb-9">Hafalan Al-Qur'an</h3>
+        
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl">
+            <!-- Tasmi Juz 30 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden portfolio-card flex flex-col">
+                <div class="h-52 relative">
+                    <img src="https://picsum.photos/id/1006/700/400" 
+                         alt="Tasmi' Juz 30" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-zinc-950/90"></div>
+                    <div class="absolute bottom-5 left-5">
+                        <div class="text-emerald-400 text-xs tracking-[3px] font-semibold">JUZ 30</div>
+                        <div class="text-white text-2xl font-semibold tracking-tighter">An-Nas — An-Naba</div>
+                    </div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <div>
+                        <span class="font-semibold">TASMI'</span>
+                        <p class="text-sm text-zinc-400 mt-1">Video tasmi' Juz 30 lengkap</p>
+                    </div>
+                    
+                    <div class="mt-auto pt-6">
+                        <a href="#" class="custom-btn inline-flex items-center justify-center px-6 py-2.5 text-sm bg-white text-zinc-950 rounded-3xl font-semibold hover:bg-zinc-100 w-full">
+                            KLIK INI — Tonton Video
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Coming Soon -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-9 flex flex-col items-center justify-center text-center min-h-[320px]">
+                <div class="mb-6">
+                    <i class="fa-solid fa-book-quran text-5xl text-zinc-600"></i>
+                </div>
+                <h4 class="font-semibold text-2xl tracking-tight mb-2">COMING SOON</h4>
+                <p class="text-zinc-400 max-w-xs">Hafalan dan tasmi' juz lainnya akan segera ditambahkan</p>
+                
+                <div class="mt-8 text-xs px-4 py-2 border border-zinc-700 rounded-2xl text-zinc-400">
+                    In Progress
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="bg-zinc-900 border-t border-zinc-800 pt-14 pb-10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-md mx-auto text-center">
+                <h4 class="font-semibold text-3xl tracking-tighter heading-font mb-3">Muna Dzar Wildan Kautsar</h4>
+                <p class="text-zinc-400 mb-8">Jika Anda ingin menghubungi saya lebih lanjut atau hanya ingin mengobrol,<br>silakan hubungi saya di sini.</p>
+                
+                <div class="flex justify-center gap-x-4 mb-10">
+                    <a href="mailto:munadzar@example.com" 
+                       class="inline-flex h-12 items-center justify-center px-8 bg-white text-zinc-950 text-sm font-semibold rounded-3xl hover:bg-zinc-100 transition-all">
+                        <i class="fa-solid fa-envelope mr-2.5"></i> 
+                        Email Me
+                    </a>
+                    <a href="#" 
+                       class="inline-flex h-12 items-center justify-center px-5 border border-zinc-600 hover:border-zinc-400 text-sm font-medium rounded-3xl transition-all">
+                        <i class="fa-brands fa-whatsapp mr-2"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="dark-divider my-8"></div>
+            
+            <div class="flex flex-col md:flex-row items-center justify-between text-xs text-zinc-500 gap-y-3">
+                <div>
+                    © 2025 — HSI Boarding School | Muna Dzar Wildan Kautsar
+                </div>
+                <div class="flex items-center gap-x-5">
+                    <span>Made with passion &amp; code</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-zinc-950/95 z-[60] pt-20 px-6">
+        <div class="flex flex-col text-lg">
+            <a href="#home" class="mobile-nav-link py-4 border-b border-zinc-800">Home</a>
+            <a href="#about" class="mobile-nav-link py-4 border-b border-zinc-800">About</a>
+            <a href="#skills" class="mobile-nav-link py-4 border-b border-zinc-800">Skills</a>
+            <a href="#works" class="mobile-nav-link py-4 border-b border-zinc-800">Works</a>
+            <a href="#diniah" class="mobile-nav-link py-4 border-b border-zinc-800">Diniyah</a>
+            <a href="#tahfidz" class="mobile-nav-link py-4 border-b border-zinc-800">Tahfidz</a>
+            
+            <div class="pt-8">
+                <a href="#contact" class="flex items-center justify-center bg-white text-zinc-950 font-semibold py-3.5 rounded-3xl">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tailwind script
+        function initializeTailwind() {
+            document.documentElement.style.setProperty('--accent', '#e5e5e5');
+        }
+        
+        // Mobile menu
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileBtn && mobileMenu) {
+            mobileBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                const icon = mobileBtn.querySelector('i');
+                if (icon) {
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-times');
+                }
+            });
+            
+            // Close menu when clicking links
+            document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    const icon = mobileBtn.querySelector('i');
+                    if (icon) {
+                        icon.classList.add('fa-bars');
+                        icon.classList.remove('fa-times');
+                    }
+                });
+            });
+        }
+        
+        // Smooth scroll for all anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    const navHeight = 80;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.scrollY - navHeight;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Simple active nav highlight on scroll
+        const sections = ['home', 'about', 'skills', 'works', 'diniah', 'tahfidz'];
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(sectionId => {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    const sectionTop = section.offsetTop;
+                    if (scrollY >= sectionTop - 200) {
+                        current = sectionId;
+                    }
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('text-white', 'font-semibold');
+                link.classList.add('text-zinc-400');
+                
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-white', 'font-semibold');
+                    link.classList.remove('text-zinc-400');
+                }
+            });
+        });
+        
+        // Keyboard accessibility
+        document.addEventListener('keydown', function(e) {
+            if (e.key === '/' && document.activeElement.tagName === 'BODY') {
+                e.preventDefault();
+                const firstLink = document.querySelector('.nav-link');
+                if (firstLink) firstLink.focus();
+            }
+        });
+        
+        // Initialize everything
+        initializeTailwind();
+        
+        // Easter egg: click logo to scroll top
+        const logo = document.querySelector('.fa-solid');
+        if (logo) {
+            logo.parentElement.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+        
+        console.log('%c[Portfolio] Black & White elegant theme initialized successfully.', 'color:#52525b');
+    </script>
+
+    <script>
+  const words = ["Seorang Programmer", "Seorang muslim", "Seorang Lanang"]; // kata-kata yang diganti
+  const target = document.getElementById("typing-text");
+
+  let wordIndex = 0;   // index kata saat ini
+  let charIndex = 0;   // index huruf saat ini
+  let isDeleting = false;
+  const typeSpeed = 100;   // kecepatan ngetik
+  const deleteSpeed = 60;  // kecepatan menghapus
+  const delayBetweenWords = 1200; // jeda sebelum ganti kata
+
+  function typeLoop() {
+    const currentWord = words[wordIndex];
+
+    if (!isDeleting) {
+      // ngetik
+      target.textContent = currentWord.substring(0, charIndex + 1);
+      charIndex++;
+
+      if (charIndex === currentWord.length) {
+        // kalau sudah selesai satu kata, tunggu sebentar lalu hapus
+        isDeleting = true;
+        setTimeout(typeLoop, delayBetweenWords);
+        return;
+      }
+
+      setTimeout(typeLoop, typeSpeed);
+    } else {
+      // menghapus
+      target.textContent = currentWord.substring(0, charIndex - 1);
+      charIndex--;
+
+      if (charIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % words.length; // ganti kata
+        setTimeout(typeLoop, 300);
+        return;
+      }
+
+      setTimeout(typeLoop, deleteSpeed);
+    }
+  }
+
+  window.addEventListener("load", typeLoop);
+</script>
+</body>
+</html>
